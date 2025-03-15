@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Murilo\\Documents\\Escola\\IPG\\PROGRAMAS_ATIVIDADES\\projeto_1bim_ICG\\projeto_1bim_icg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACEBB20-8266-473E-9D24-FB31D681721E}|projeto_1bim_icg.csproj|c:\\users\\murilo\\documents\\escola\\ipg\\programas_atividades\\projeto_1bim_icg\\projeto_1bim_icg\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACEBB20-8266-473E-9D24-FB31D681721E}|projeto_1bim_icg.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACEBB20-8266-473E-9D24-FB31D681721E}|projeto_1bim_icg.csproj|C:\\Users\\Murilo\\Documents\\Escola\\IPG\\PROGRAMAS_ATIVIDADES\\projeto_1bim_ICG\\projeto_1bim_icg\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2ACEBB20-8266-473E-9D24-FB31D681721E}|projeto_1bim_icg.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Murilo\\Documents\\Escola\\IPG\\PROGRAMAS_ATIVIDADES\\projeto_1bim_ICG\\projeto_1bim_icg\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Murilo\\Documents\\Escola\\IPG\\PROGRAMAS_ATIVIDADES\\projeto_1bim_ICG\\projeto_1bim_icg\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T17:49:01.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Murilo\\Documents\\Escola\\IPG\\PROGRAMAS_ATIVIDADES\\projeto_1bim_ICG\\projeto_1bim_icg\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Murilo\\Documents\\Escola\\IPG\\PROGRAMAS_ATIVIDADES\\projeto_1bim_ICG\\projeto_1bim_icg\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T17:45:37.817Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "projeto_1bim_icg/1.0.0": {
+        "runtime": {
+          "projeto_1bim_icg.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "projeto_1bim_icg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

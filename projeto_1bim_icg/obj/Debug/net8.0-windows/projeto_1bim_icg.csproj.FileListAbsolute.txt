@@ -1,0 +1,16 @@
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\bin\Debug\net8.0-windows\projeto_1bim_icg.exe
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\bin\Debug\net8.0-windows\projeto_1bim_icg.deps.json
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\bin\Debug\net8.0-windows\projeto_1bim_icg.runtimeconfig.json
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\bin\Debug\net8.0-windows\projeto_1bim_icg.dll
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\bin\Debug\net8.0-windows\projeto_1bim_icg.pdb
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\projeto_1bim_icg.Form1.resources
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\projeto_1bim_icg.csproj.GenerateResource.cache
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\projeto_1bim_icg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\projeto_1bim_icg.AssemblyInfoInputs.cache
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\projeto_1bim_icg.AssemblyInfo.cs
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\projeto_1bim_icg.csproj.CoreCompileInputs.cache
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\projeto_1bim_icg.dll
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\refint\projeto_1bim_icg.dll
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\projeto_1bim_icg.pdb
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\projeto_1bim_icg.genruntimeconfig.cache
+C:\Users\Murilo\Documents\Escola\IPG\PROGRAMAS_ATIVIDADES\projeto_1bim_ICG\projeto_1bim_icg\obj\Debug\net8.0-windows\ref\projeto_1bim_icg.dll
