@@ -1,0 +1,149 @@
+using System.Drawing;
+/*
+*Colegio Técnico Antônio Teixeira Fernandes (Univap)
+ * Curso Técnico em Informática - Data de Entrega: 28 / 03 / 2025
+ * Autores do Projeto: Murilo Gonçalves de Lima, Lucas Marassi Cipriano Pereira
+ *
+ * Turma: 2M
+ * Atividade Proposta em aula
+ * Observação: < colocar se houver>
+ * 
+ * 
+ * ******************************************************************/
+
+namespace projeto_1bim_visual
+{
+    public partial class Form1 : Form
+    {
+
+        private int m_global = 0;
+        private int x1_global = 0;
+        private int x2_global = 0;
+        private int b_global = 0;
+        private int y1_global = 0;
+        private int y2_global = 0;
+
+        private int R = 0;
+        private int G = 0;
+        private int B = 0;
+
+        private void PintaPlano(PaintEventArgs e)
+        {
+            int meiox = panel1.Width / 2;
+            int meioy = panel1.Height / 2;
+            Color cor = new Color();
+            cor = Color.FromArgb(0, 0, 0);
+            Pen caneta = new Pen(cor);
+            e.Graphics.DrawLine(caneta, meiox, 0, meiox, this.Height);
+            e.Graphics.DrawLine(caneta, 0, meioy, this.Width, meioy);
+        }
+        
+
+        private void pintaLinha(PaintEventArgs e)
+        {
+            int meiox = panel1.Width / 2;
+            int meioy = panel1.Height / 2;
+
+            foreach (var item in listBox2.Items)
+            {
+                // Divide a string em partes com base no espaço
+                string[] valores = item.ToString().Split(' ');
+
+                if (valores.Length == 7) // Garante que há exatamente 7 valores
+                {
+                    int x1 = int.Parse(valores[0]);
+                    int x2 = int.Parse(valores[1]);
+                    int y1 = int.Parse(valores[2]);
+                    int y2 = int.Parse(valores[3]);
+                    int R = int.Parse(valores[4]);
+                    int G = int.Parse(valores[5]);
+                    int B = int.Parse(valores[6]);
+
+                    // Criando a cor e a caneta
+                    Color cor = Color.FromArgb(R, G, B);
+                    Pen caneta = new Pen(cor);
+
+                    // Desenha a linha com base nos valores lidos
+                    e.Graphics.DrawLine(caneta, meiox + x1, meioy - y1, meiox + x2, meioy - y2);
+                }
+                else
+                {
+                    MessageBox.Show("Erro: Formato inválido na ListBox.");
+                }
+            }
+        }
+
+
+        public Form1()
+        {
+            InitializeComponent();
+            listBox2.Visible = false;
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            PintaPlano(e);
+            pintaLinha(e);
+        }
+
+        private void Form1_SizeChanged(object sender, EventArgs e)
+        {
+            panel1.Invalidate();
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(textBox1.Text, out m_global) &&
+                int.TryParse(textBox2.Text, out b_global) &&
+                int.TryParse(textBox3.Text, out x1_global) &&
+                int.TryParse(textBox4.Text, out x2_global))
+            {
+
+                //                m_global = int.Parse(textBox1.Text);
+                //                b_global = int.Parse(textBox2.Text);
+                //                x1_global = int.Parse(textBox3.Text);
+                //                x2_global = int.Parse(textBox4.Text);
+
+                y1_global = m_global * x1_global + b_global;
+                y2_global = m_global * x2_global + b_global;
+
+                listBox1.Items.Add("Inclinação (M): " + m_global);
+                listBox1.Items.Add("Interseção (B): " + b_global);
+                listBox1.Items.Add("===========================");
+
+                if (int.TryParse(textBox5.Text, out R) &&
+                    int.TryParse(textBox6.Text, out G) &&
+                    int.TryParse(textBox7.Text, out B)
+                    )
+                {
+                    //                    R = int.Parse(textBox5.Text);
+                    if (R < 0 || R > 255)
+                        R = 0;
+                    //                    G = int.Parse(textBox6.Text);
+                    if (G < 0 || G > 255)
+                        G = 0;
+                    //                    B = int.Parse(textBox7.Text);
+                    if (B < 0 || B > 255)
+                        B = 0;
+
+                }
+                else
+                {
+                    R = 0;
+                    G = 0;
+                    B = 0;
+                    MessageBox.Show("Valores inválidos, cor: preto");
+                }
+
+                listBox2.Items.Add(x1_global + " " + x2_global + " " + y1_global + " " + y2_global + " " + R + " " + G + " " + B);
+
+                panel1.Invalidate();
+
+            } else
+                MessageBox.Show("Coordenadas inválidas");
+        }
+
+    }
+}
