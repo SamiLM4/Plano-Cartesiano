@@ -1,100 +1,55 @@
-# Projeto 1° bimestre - Introdução a Computação Gráfica
-# 🎨 Projeto de Desenho em C# (WinForms)
+# 📈 Projeto de Gráfico Linear em C# (WinForms)
 
-
-<img width="1514" height="799" alt="image" src="https://github.com/user-attachments/assets/dbb56099-4b37-483b-85d2-86e8389f9409" />
-
-<img width="1514" height="799" alt="image" src="https://github.com/user-attachments/assets/cc55a810-ee30-4be6-9c42-ce55c3376ff2" />
-
-Este é um projeto desenvolvido em **C# Windows Forms** que permite desenhar **linhas e retângulos** em um painel, além de aplicar diferentes estilos de linha e calcular propriedades geométricas.
+Projeto feito em C# Windows Forms para desenhar uma reta em um plano cartesiano a partir de uma função do 1º grau.
 
 ---
 
-## 📌 Funcionalidades
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/56ce1ab7-0e26-4d95-bf5f-6684c76e3d4a" />
 
-- ✏️ Desenho de **linhas** com dois cliques do mouse  
-- 🔲 Desenho de **retângulos** com base em largura e altura  
-- 📏 Cálculo da **equação da reta (f(x))**  
-- 📐 Cálculo da **distância entre dois pontos**  
-- 🎨 Escolha de estilos de linha:
-  - Sólido
-  - Tracejado
-  - Pontilhado
-  - Traços personalizados  
-- 📊 Controle de **espessura da linha**
+
+## 📌 O que o projeto faz
+
+- Desenha um plano cartesiano (eixos X e Y)
+- Plota uma reta baseada na função:
+  f(x) = mx + b
+- Permite informar valores de:
+  - m (inclinação)
+  - b (posição no eixo Y)
+  - x1 e x2 (intervalo da reta)
+- Atualiza o gráfico ao clicar no botão e ao redimensionar a janela
+
+---
+
+## 🧠 Como funciona
+
+O programa calcula dois pontos da reta:
+
+- y1 = m * x1 + b  
+- y2 = m * x2 + b  
+
+Depois desenha a linha entre esses pontos no plano cartesiano.
 
 ---
 
 ## 🖱️ Como usar
 
-### 🔹 Desenhar uma linha
-1. Clique uma vez no painel para definir o ponto inicial  
-2. Clique novamente para definir o ponto final  
-3. A linha será desenhada automaticamente  
+1. Digite os valores de m, b, x1 e x2 nos campos
+2. Clique no botão para gerar o gráfico
+3. A reta será desenhada na tela
 
 ---
 
-### 🔹 Desenhar um retângulo
-1. Defina o ponto inicial clicando no painel  
-2. Informe largura e altura nos campos de texto  
-3. Clique no botão de desenhar retângulo  
+## 🛠️ Tecnologias
 
----
-
-### 🔹 Alterar estilo da linha
-Use o **ComboBox** para escolher o tipo de linha antes de desenhar.
-
----
-
-## 📊 Informações exibidas
-
-Ao desenhar uma linha, o sistema mostra:
-
-- 📈 Equação da reta (`f(x) = mx + b`)
-- 📏 Distância entre os pontos em pixels
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-- C# (.NET Windows Forms)
-- System.Drawing
-- GDI+ (Graphics)
-
----
-
-## 📁 Estrutura do projeto
-
-- `Form1.cs` → Lógica principal do desenho  
-- `panel2` → Área onde os desenhos são feitos  
-- `ComboBox` → Escolha de estilo da linha  
-- `TextBox` → Entrada de tamanho do retângulo  
+- C# Windows Forms
+- System.Drawing (GDI+)
 
 ---
 
 ## 🎯 Objetivo
 
-Projeto desenvolvido para praticar:
+Projeto feito para praticar:
 
-- Manipulação de eventos de mouse  
-- Desenho gráfico com GDI+  
-- Geometria básica aplicada  
-- Interface gráfica no Windows Forms  
-
----
-
-## 👨‍🎓 Autor
-
-- Murilo Gonçalves de Lima  
-- Curso Técnico em Informática – 2H  
-- Univap / Colégio Técnico Antônio Teixeira Fernandes  
-
----
-
-## 🚀 Possíveis melhorias futuras
-
-- Desenhar múltiplas formas simultaneamente  
-- Ferramenta de mover objetos  
-- Salvamento de imagem (PNG)  
-- Sistema de "undo/redo"  
-- Suporte a círculos e polígonos  
+- Função do 1º grau
+- Plano cartesiano
+- Desenho gráfico no WinForms
